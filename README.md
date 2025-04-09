@@ -1,1 +1,2 @@
-# workbook-1
+# IntelliJ IDEA # 
+**/.idea/
