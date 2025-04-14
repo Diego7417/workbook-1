@@ -4,8 +4,8 @@ public class MathApp {
     public static void main(String[] args) {
  //     Question 1
 //       Bob's and Gary's salary
-        int bobAnnualSalary = 94000;
-        int garyAnnualSalary = 84000;
+        int bobAnnualSalary = 194000;
+        int garyAnnualSalary = 184000;
         int highestAnnualSalary = Math.max(bobAnnualSalary, garyAnnualSalary);
         System.out.println("The highest salary is..." + highestAnnualSalary + "salary");
 
