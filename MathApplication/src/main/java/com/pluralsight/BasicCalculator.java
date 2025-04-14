@@ -6,10 +6,10 @@ public class BasicCalculator {
     public static void main(String[] args) {
         Scanner myScanner = new Scanner(System.in);
         System.out.print("Enter first number:");
-        int num1 = myScanner.nextInt();
+        float num1 = myScanner.nextFloat();
 
         System.out.print("Enter second number:");
-        int num2 = myScanner.nextInt();
+        float num2 = myScanner.nextFloat();
 
        System.out.println("Possible calculations");
        System.out.println("(A)dd");
@@ -19,8 +19,8 @@ public class BasicCalculator {
        System.out.println("Please select one of the options");
        char option = myScanner.next().toUpperCase().charAt(0);
 
-       int result = num1 * num2;
-       System.out.printf("The result is" + result);
+       float result = num1 * num2;
+       System.out.printf("%.2f * %.2f = %.2f", num1, num2, result);
 
     }
 }
