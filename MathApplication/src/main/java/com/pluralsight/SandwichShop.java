@@ -40,7 +40,7 @@ public class SandwichShop {
         }else if (age >= 65);{
             discount = 0.20;
         }
-        double finalPrice = basePrice * (1 - discount);
+        double finalPrice = basePrice - (basePrice * discount);
         System.out.println("Your total will be:$" + finalPrice);
 
 
